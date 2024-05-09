@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F7BB8812BECFB2100DB9526 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BB8802BECFB2100DB9526 /* HomeViewController.swift */; };
+		6F7BB8832BECFCA800DB9526 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BB8822BECFCA800DB9526 /* MarketViewController.swift */; };
+		6F7BB8852BECFD0000DB9526 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BB8842BECFD0000DB9526 /* ExchangeViewController.swift */; };
+		6F7BB8872BECFD5B00DB9526 /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BB8862BECFD5B00DB9526 /* WalletsViewController.swift */; };
 		6FCB4A762BEC5BF100E1DD95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB4A752BEC5BF100E1DD95 /* AppDelegate.swift */; };
 		6FCB4A782BEC5BF100E1DD95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB4A772BEC5BF100E1DD95 /* SceneDelegate.swift */; };
-		6FCB4A7A2BEC5BF100E1DD95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB4A792BEC5BF100E1DD95 /* ViewController.swift */; };
-		6FCB4A7D2BEC5BF100E1DD95 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6FCB4A7C2BEC5BF100E1DD95 /* Base */; };
+		6FCB4A7A2BEC5BF100E1DD95 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB4A792BEC5BF100E1DD95 /* MainTabBarViewController.swift */; };
 		6FCB4A7F2BEC5BF500E1DD95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCB4A7E2BEC5BF500E1DD95 /* Assets.xcassets */; };
 		6FCB4A822BEC5BF500E1DD95 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6FCB4A812BEC5BF500E1DD95 /* Base */; };
+		6FCB4A8F2BEC655400E1DD95 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB4A8E2BEC655400E1DD95 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F7BB8802BECFB2100DB9526 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6F7BB8822BECFCA800DB9526 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		6F7BB8842BECFD0000DB9526 /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+		6F7BB8862BECFD5B00DB9526 /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
 		6FCB4A722BEC5BF100E1DD95 /* NomikCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NomikCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCB4A752BEC5BF100E1DD95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FCB4A772BEC5BF100E1DD95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6FCB4A792BEC5BF100E1DD95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6FCB4A7C2BEC5BF100E1DD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FCB4A792BEC5BF100E1DD95 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		6FCB4A7E2BEC5BF500E1DD95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FCB4A812BEC5BF500E1DD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FCB4A832BEC5BF500E1DD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FCB4A8E2BEC655400E1DD95 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		6FCB4A742BEC5BF100E1DD95 /* NomikCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				6FCB4A752BEC5BF100E1DD95 /* AppDelegate.swift */,
-				6FCB4A772BEC5BF100E1DD95 /* SceneDelegate.swift */,
-				6FCB4A792BEC5BF100E1DD95 /* ViewController.swift */,
-				6FCB4A7B2BEC5BF100E1DD95 /* Main.storyboard */,
-				6FCB4A7E2BEC5BF500E1DD95 /* Assets.xcassets */,
-				6FCB4A802BEC5BF500E1DD95 /* LaunchScreen.storyboard */,
+				6FCB4A8A2BEC5CC100E1DD95 /* Supports */,
+				6FCB4A8B2BEC5CEE00E1DD95 /* Models */,
+				6FCB4A8D2BEC5D1900E1DD95 /* Views */,
+				6FCB4A8C2BEC5D0A00E1DD95 /* ViewModels */,
+				6FCB4A892BEC5CAB00E1DD95 /* Controllers */,
 				6FCB4A832BEC5BF500E1DD95 /* Info.plist */,
 			);
 			path = NomikCrypto;
+			sourceTree = "<group>";
+		};
+		6FCB4A892BEC5CAB00E1DD95 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FCB4A792BEC5BF100E1DD95 /* MainTabBarViewController.swift */,
+				6F7BB8802BECFB2100DB9526 /* HomeViewController.swift */,
+				6F7BB8822BECFCA800DB9526 /* MarketViewController.swift */,
+				6F7BB8842BECFD0000DB9526 /* ExchangeViewController.swift */,
+				6F7BB8862BECFD5B00DB9526 /* WalletsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6FCB4A8A2BEC5CC100E1DD95 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				6FCB4A752BEC5BF100E1DD95 /* AppDelegate.swift */,
+				6FCB4A772BEC5BF100E1DD95 /* SceneDelegate.swift */,
+				6FCB4A7E2BEC5BF500E1DD95 /* Assets.xcassets */,
+				6FCB4A802BEC5BF500E1DD95 /* LaunchScreen.storyboard */,
+				6FCB4A8E2BEC655400E1DD95 /* Constants.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		6FCB4A8B2BEC5CEE00E1DD95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6FCB4A8C2BEC5D0A00E1DD95 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6FCB4A8D2BEC5D1900E1DD95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +179,6 @@
 			files = (
 				6FCB4A7F2BEC5BF500E1DD95 /* Assets.xcassets in Resources */,
 				6FCB4A822BEC5BF500E1DD95 /* Base in Resources */,
-				6FCB4A7D2BEC5BF100E1DD95 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +189,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FCB4A7A2BEC5BF100E1DD95 /* ViewController.swift in Sources */,
+				6F7BB8812BECFB2100DB9526 /* HomeViewController.swift in Sources */,
+				6F7BB8872BECFD5B00DB9526 /* WalletsViewController.swift in Sources */,
+				6FCB4A7A2BEC5BF100E1DD95 /* MainTabBarViewController.swift in Sources */,
+				6F7BB8852BECFD0000DB9526 /* ExchangeViewController.swift in Sources */,
 				6FCB4A762BEC5BF100E1DD95 /* AppDelegate.swift in Sources */,
 				6FCB4A782BEC5BF100E1DD95 /* SceneDelegate.swift in Sources */,
+				6F7BB8832BECFCA800DB9526 /* MarketViewController.swift in Sources */,
+				6FCB4A8F2BEC655400E1DD95 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6FCB4A7B2BEC5BF100E1DD95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6FCB4A7C2BEC5BF100E1DD95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6FCB4A802BEC5BF500E1DD95 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +345,6 @@
 				INFOPLIST_FILE = NomikCrypto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +372,6 @@
 				INFOPLIST_FILE = NomikCrypto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
